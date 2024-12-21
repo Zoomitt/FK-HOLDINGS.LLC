@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+<head>
+
+  <!-- ** Basic Page Needs ** -->
+  <meta charset="utf-8">
+  <title>Megakit | HTML5 Agency Template</title>
+
+  <!-- ** Mobile Specific Metas ** -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Agency HTML Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Html5 Agency Template v1.0">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="megakit" />
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!--Favicon-->
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<style>
+  /* Curved Image */
+.curved-img {
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.curved-img:hover {
+    transform: scale(1.05);
+}
+
+/* Classic Box Style */
+.ts-service-box.classic-style {
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.ts-service-box.classic-style:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ts-service-content {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.ts-service-content .service-title {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ts-service-content p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Add responsive adjustments if necessary */
+@media (max-width: 768px) {
+    .ts-service-box.classic-style {
+        padding: 15px;
+    }
+}
+
+</style>
+
+
+  
+</head>
+
+<body>
+
+<!-- Header Start -->
+<header class="navigation">
+  <div class="header-top ">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-2 col-md-4">
+          <div class="header-top-socials text-center text-lg-left text-md-left">
+            <a href="https://www.facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/themefisher/" aria-label="github"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
+          <div class="header-top-info mb-2 mb-md-0">
+            <a href="tel:+23-345-67890">Call Us : <span>+23-345-67890</span></a>
+            <a href="mailto:support@gmail.com"><i class="fas fa-envelope mr-2"></i><span>support@gmail.com</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg px-0 py-4">
+            <a class="navbar-brand" href="index.html">
+				<img id="logo" src="images/logo Gold.png" alt="" width="60px" height="60px">              
+            </a>
+      
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+              aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse text-center" id="navbarsExample09">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown @@about">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                    <li><a class="dropdown-item @@company" href="about.html">Our company</a></li>
+                    <li><a class="dropdown-item @@pricing" href="pricing.html">Pricing</a></li>
+                    
+                    <li class="dropdown dropdown-submenu dropright">
+                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+            
+                      <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item @@service"><a class="nav-link" href="service.html">Services</a></li>
+                <li class="nav-item @@project"><a class="nav-link" href="project.html">Portfolio</a></li>
+                <li class="nav-item dropdown @@blog">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-chevron-down small"></i></a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                    <li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
+                    <li><a class="dropdown-item @@blogSidebar" href="blog-sidebar.html">Blog with Sidebar</a></li>
+                    <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
+      
+                    <li class="dropdown dropdown-submenu dropleft">
+                      <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+            
+                      <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                        <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                        <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+      
+              <div class="my-2 my-md-0 ml-lg-4 text-center">
+                <a href="contact.html" class="btn btn-solid-border btn-round-full">Get a Quote</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header Close -->
+
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9 col-md-10">
+				<div class="block">
+					<span class="d-block mb-3 text-white text-capitalize">FK HOLDINGS.LLC</span>
+					<h1 class="animated fadeInUp mb-5">Welcome to<br> FK HOLDINGS <br> LLC</h1>
+					<a href="#"  class="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!-- we section Start -->
+
+
+
+
+
+
+
+
+
+
+  <!-- Main Top about section Start -->
+
+  <section class="about_section layout_padding-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-6">
+          <div class="detail-box">
+            <br><br>
+            <h2>
+              About us
+            </h2>
+            <p>
+              FK Holding is a global investment firm with a diversified portfolio spanning private and public equity across sectors such as real estate, power generation, manufacturing, hospitality, oil & gas, and financial services. As a financial investor, FK Holding expands its global reach, while Al Khor Holding manages its assets. We specialize in real estate, trading, oil, gas, and more, offering investment opportunities for both long-term growth and quick returns, ensuring stability and growth for our investors.            </p>
+            
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <div class="img-box">
+            <br><br><br><br>
+            <img src="images/n_about-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+  <!-- professional section -->
+
+  <section class="professional_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+			<br><br><br><br>
+            <img src="images/n_professional-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="detail-box">
+			<br><br>
+            <h2>
+              Diversified Investment  <br>
+              Portfolio
+            </h2>
+            <p>
+              At FK HOLDINGS LLC, we specialize in investing across multiple sectors including trade, real estate, oil, gas, and more. Our diversified portfolio ensures stability and growth opportunities for our investors. Whether you're looking for long-term investments or quick returns, we have options that cater to every investment goal.            </p>
+            <a href="">
+              Read More
+            </a>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end professional section -->
+
+    <!-- Main Top about section Stop -->
+
+
+
+
+
+
+
+	<!-- Our Services Start -->
+<section class="ts-services solid-bg" id="ts-services">
+  <div class="container">
+      <div class="row text-center">
+          <div class="col-md-12">
+              <h2 class="section-title"><span>What We Do</span>Our Services</h2>
+          </div>
+      </div>
+      <!-- Title row end-->
+      <div class="row ts-service-row-box">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="ts-service-box classic-style">
+                  <div class="ts-service-image-wrapper">
+                      <img class="img-fluid curved-img" src="images/services/service1.jpg" alt="">
+                  </div>
+                  <div class="ts-service-content">
+                      <h3 class="service-title">Diversified Investment Portfolio</h3>
+                      <p>At FK Holdings LLC, we invest in diverse sectors like trade, real estate, oil, and gas. Our portfolio offers stability and growth opportunities for investors. Whether you're looking for long-term investments or quick returns, we provide options to suit every goal.</p>
+                  </div>
+              </div>
+              <!-- Service1 end-->
+          </div>
+          <!-- Col end-->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="ts-service-box classic-style">
+                  <div class="ts-service-image-wrapper">
+                      <img class="img-fluid curved-img" src="images/services/service2.jpg" alt="">
+                  </div>
+                  <div class="ts-service-content">
+                      <h3 class="service-title">Strategic Real Estate Investments</h3>
+                      <p>"Invest in the future" is our motto for real estate investments. We identify strategic properties with high returns and long-term growth potential. At FK Holdings LLC, we use our expertise to navigate the dynamic real estate market and secure profitable deals for our clients.</p>
+                  </div>
+              </div>
+              <!-- Service2 end-->
+          </div>
+          <!-- Col end-->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="ts-service-box classic-style">
+                  <div class="ts-service-image-wrapper">
+                      <img class="img-fluid curved-img" src="images/services/service3.jpg" alt="">
+                  </div>
+                  <div class="ts-service-content">
+                      <h3 class="service-title">Energy Sector Ventures</h3>
+                      <p>The energy sector offers exciting opportunities for savvy investors. At FK Holdings LLC, we stay updated on the latest trends in oil and gas to identify ventures with high ROI potential. Join us as we explore the dynamic world of energy investments.</p>
+                  </div>
+              </div>
+              <!-- Service3 end-->
+          </div>
+          <!-- Col end-->
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="ts-service-box classic-style">
+                  <div class="ts-service-image-wrapper">
+                      <img class="img-fluid curved-img" src="images/services/service2.jpg" alt="">
+                  </div>
+                  <div class="ts-service-content">
+                      <h3 class="service-title">Strategic Real Estate Investments</h3>
+                      <p>"Invest in the future" is our motto for real estate investments. We identify strategic properties with high returns and long-term growth potential. At FK Holdings LLC, we use our expertise to navigate the dynamic real estate market and secure profitable deals for our clients.</p>
+                  </div>
+              </div>
+              <!-- Service4 end-->
+          </div>
+      </div>
+      <!-- Content row end-->
+      <div class="gap-60"></div>
+  </div>
+  <!-- Container end-->
+</section>
+<!-- Service end-->
+
+ 
+<!-- Our Services Stop -->
+
+
+
+
+  <!-- contact section and map  start-->
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form action="">
+            <div>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div>
+              <input type="text" placeholder="Phone Number" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex ">
+              <button>
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap" style="width:100%;height:100%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- contact section and map Stop-->
+
+
+<!-- we section End -->
+
+
+
+
+
+
+
+
+<footer class="footer section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="widget">
+          <h4 class="text-capitalize mb-4">Company</h4>
+
+          <ul class="list-unstyled footer-menu lh-35">
+            <li><a href="about.html">Terms & Conditions</a></li>
+            <li><a href="about.html">Privacy Policy</a></li>
+            <li><a href="cobtact.html">Support</a></li>
+            <li><a href="cobtact.html">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6">
+        <div class="widget">
+          <h4 class="text-capitalize mb-4">Quick Links</h4>
+
+          <ul class="list-unstyled footer-menu lh-35">
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="blog-grid.html">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 mx-auto">
+        <div class="widget">
+          <h4 class="text-capitalize mb-4">Subscribe Us</h4>
+          <p>Subscribe to get latest news article and resources </p>
+
+          <form action="#" class="sub-form">
+            <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
+            <a href="#" class="btn btn-main btn-small">subscribe</a>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6">
+        <div class="widget">
+          <div class="logo mb-4">
+            <h3>FK<span>Holdings.</span></h3>
+          </div>
+          <h6><a href="mailto:support@gmail.com">Support@megakit.com</a></h6>
+          <a href="tel:+23-345-67890"><span class="text-color h4">+23-456-6588</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-btm pt-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="copyright">
+            Copyright &copy; 2020, Designed &amp; Developed by <a href="https://themefisher.com/"
+              >Themefisher</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-left text-lg-right">
+          <ul class="list-inline footer-socials">
+            <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
+            <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Scroll to top-->
+<div id="scroll-to-top" class="scroll-to-top">
+  <span class="icon fa fa-angle-up"></span>
+</div>
+
+
+<!-- 
+Essential Scripts
+=====================================-->
+<!-- Main jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4.3.1 -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!--  Magnific Popup-->
+<script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Slick Slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- Counterup -->
+<script src="plugins/counterup/jquery.waypoints.min.js"></script>
+<script src="plugins/counterup/jquery.counterup.min.js"></script>
+
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+<script src="plugins/google-map/map.js" defer></script>
+
+<script src="js/script.js"></script>
+ <!-- Google Map -->
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+ <!-- End Google Map -->
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+</body>
+
+</html>
+
